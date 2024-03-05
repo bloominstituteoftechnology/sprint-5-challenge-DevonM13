@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "fkill :3003 -f -s && node ./backend/server.js",
-    "test": "cross-env NODE_ENV=testing jest --watchAll --verbose",
+    "test": "jest --watchAll --verbose",
     "fixit": "rm -rf node_modules package-lock.json && npm i"
   },
   "license": "MIT",
